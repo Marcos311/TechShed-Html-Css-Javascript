@@ -10,3 +10,31 @@ body {
 #navbar a{
     color : #ffffff;
 }
+
+#barra_pesquisa {
+    background-color: #ffffff;
+}
+
+#barra_pesquisa a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#barra_pesquisa .barra_pesquisa_favorito{
+    text-decoration: underline;
+}
+
+#categorias {
+    padding: 5px;
+}
+
+#categorias a {
+    text-decoration : none;
+    color : #000000;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#categorias a:hover{
+    color: #800080;
+}
