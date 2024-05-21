@@ -38,3 +38,57 @@ body {
 #categorias a:hover{
     color: #800080;
 }
+
+#melhores_precos {
+    position: relative;
+}
+
+#melhores_precos .computador {
+    width: 100%;
+}
+
+#melhores_precos .texto_melhores_precos_titulo {
+    background-color: #ff0000;
+    color : #ffffff;
+    position : absolute;
+    top : 50px;
+    left: 20px;
+    font-size: 32px;
+}
+
+#melhores_precos .texto_melhores_precos_negrito1 {
+    position: absolute;
+    top : 90px;
+    left : 20px;
+}
+
+#melhores_precos .texto_melhores_precos_negrito2 {
+    position: absolute;
+    top : 110px;
+    left : 20px;
+}
+
+#melhores_precos .texto_melhores_precos_negrito3 {
+    position: absolute;
+    top : 130px;
+    left : 20px;
+}
+
+#melhores_precos .texto_melhores_precos {
+    position : absolute;
+    top : 150px;
+    left : 20px;
+}
+
+#melhores_precos .botao_melhores_precos {
+    position : absolute;
+    top : 180px;
+    left : 20px;
+    color : #ffffff;
+    background-color: #800080;
+    border-radius : 20px;
+}
+
+#melhores_precos .botao_melhores_precos:hover {
+    background-color: #000000;
+}
